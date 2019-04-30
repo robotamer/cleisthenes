@@ -11,7 +11,7 @@ But PBFT has some problems like below.
 *HoneyBadgerBFT* solves these problems like this.
 * HBBFT does not use time-out, it is completely asynchronous.
 * Less network overload than PBFT.
-* No reader, all node are equal.
+* No leader, all node are equal.
 
 ### HoneyBadgerBFT protocol
 The messages in most BFT(Byzantine Fault Tolerance) system must arrive in fixed time out.
